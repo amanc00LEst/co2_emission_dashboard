@@ -157,7 +157,7 @@ def compare_countries(selected_countries):
     return fig
 
 # Run
-server = app.server
 
 if __name__ == '__main__':
     app.run(debug=True)
+server = app.server
